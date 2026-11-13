@@ -10,9 +10,9 @@ packages = [{include = "app"}]
 python = "^3.9"
 fastapi = {extras = ["all"], version = "^0.95.1"}
 uvicorn = {extras = ["standard"], version = "^0.22.0"}
-gunicorn = "^20.1.0"
+gunicorn = "^23.0.0"
 openai = "^0.27.6"
-requests = "2.29.0"
+requests = "2.32.5"
 python-dotenv = "^1.0.0"
 python-decouple = "^3.8"
 pydantic = "^1.10.7"
@@ -27,17 +27,17 @@ uuid = "^1.30"
 flake8 = "^6.0.0"
 pinecone-client = "^2.2.1"
 tiktoken = "^0.4.0"
-pypdf = "^3.8.1"
+pypdf = "^6.21.4"
 cohere = "^4.5.1"
 wolframalpha = "^5.0.0"
 huggingface-hub = "^0.15.1"
 bs4 = "^0.0.1"
 pdfplumber = "^0.9.0"
-transformers = "^4.30.2"
+transformers = "^4.33.3"
 youtube-transcript-api = "^0.6.1"
 replicate = "^0.8.3"
 python-slugify = "^8.0.1"
-langchain = "^0.0.218"
+langchain = "^0.2.5"
 
 
 [build-system]
